@@ -1,0 +1,94 @@
+.topBarIconHolder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-basis: 100%;
+}
+
+.leftHolder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colorIcon {
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.board,
+.test,
+.star,
+.butler,
+.name,
+.userFriends,
+.menu,
+.calendar,
+.invite {
+  display: inline-block;
+  color: #fff;
+  background: hsla(0, 0%, 100%, 0.3);
+  width: 40px;
+  height: 33px;
+  line-height: 33px;
+  margin-left: 5px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.board:hover,
+.test:hover,
+.star:hover,
+.butler:hover,
+.name:hover,
+.userFriends:hover,
+.menu:hover,
+.calendar:hover,
+.invite:hover {
+  color: #fff;
+  background: hsla(0, 0%, 100%, 0.5);
+}
+
+.board {
+  width: 100px;
+}
+
+.test {
+  width: 150px;
+  margin-top: 0px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.star {
+  width: 50px;
+}
+
+.name {
+  width: 200px;
+}
+
+.calendar {
+  width: 120px;
+}
+
+.butler {
+  width: 100px;
+}
+
+.menu {
+  width: 150px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.more {
+  display: inline-block;
+  width: 20px;
+}
+
+.moveIcon {
+  margin-right: 195px;
+  transition: ease-in-out;
+}

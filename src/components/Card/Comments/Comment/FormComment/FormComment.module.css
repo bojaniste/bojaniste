@@ -1,0 +1,29 @@
+.form {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px -2px rgb(9 30 66 / 25%), 0 0 0 1px rgb(9 30 66 / 8%);
+  width: 400px;
+  margin-bottom: 15px;
+}
+.hideForm {
+  background-color: #fff;
+  border-radius: 3px;
+  width: 400px;
+  margin-bottom: 15px;
+}
+
+.commentTextArea {
+  border: 0;
+  box-shadow: none;
+  background-color: #fff !important;
+  box-sizing: content-box;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  resize: none;
+}
+.commentTextArea:focus {
+  box-shadow: none;
+}
+.formHolder {
+  margin-left: 34px;
+}

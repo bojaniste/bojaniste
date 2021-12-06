@@ -1,0 +1,14 @@
+.header {
+  color: #5e6c84;
+  word-spacing: 2;
+}
+.listName {
+  margin-left: 34px;
+}
+.cardName {
+  display: inline-block;
+  margin-left: 14px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

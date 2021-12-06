@@ -1,0 +1,18 @@
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.homeCard {
+  width: 420px;
+  text-align: center;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 60px;
+}
+.homeCard img {
+  width: 100%;
+  height: auto;
+}

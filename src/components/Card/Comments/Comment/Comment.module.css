@@ -1,0 +1,44 @@
+.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 5px;
+}
+
+.userName {
+  font-weight: 600;
+  margin-right: 5px;
+  clear: both;
+  color:#5e6c84;
+}
+
+
+.text p {
+  margin-left: 34px;
+  box-sizing: border-box;
+  padding: 5px;
+  display: inline-block;
+  max-width: 100%;
+  clear: both;
+  background-color: #fff;
+  text-overflow: ellipsis;
+  border-radius: 3px;
+    box-shadow: 0 1px 2px -1px rgb(9 30 66 / 25%), 0 0 0 1px rgb(9 30 66 / 8%);
+}
+.editAndDelete{
+  margin-left: 34px;
+}
+ .buttons{
+   margin-left: 34px;
+   margin-bottom: 5px;
+   color:#5e6c84;
+ }
+.edit, .delete{
+cursor:pointer;
+text-decoration: underline;
+margin-right: 5px;
+
+}
+

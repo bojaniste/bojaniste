@@ -1,0 +1,22 @@
+.modal {
+  padding-top: 15px;
+  padding-left: 30px;
+  background-color: #ebecf0;
+}
+.comments {
+  width: 500px;
+  min-height: 600px;
+}
+
+.input {
+  width: 400px;
+}
+.editAndDelete {
+  display: inline-flex;
+}
+.exit span {
+  float: right;
+  margin-right: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.sideDrawer {
+  position: fixed;
+  width: 350px;
+  max-width: 70%;
+  right: 0;
+  top: 60px;
+
+  z-index: 200;
+  background-color: white;
+  padding: 32px 16px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-out;
+  overflow-x: auto;
+  height: 100vh;
+  height: calc(100vh - 50px);
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.close {
+  transform: translateX(100%);
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.box {
+  width: 45%;
+  height: 90px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.box:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.colorContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.topSideDrawer {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 17px;
+  font-weight: 600;
+  color: "#3d5d73";
+}
